@@ -4,7 +4,6 @@ Vue.use(VueRouter);
 let router = new VueRouter({
     routes:[
         {path:'/',  name:'Landing', component: () =>import('./components/Lander.vue')},
-        
     ]
 });
 export default router;
