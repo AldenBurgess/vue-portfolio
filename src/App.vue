@@ -1,27 +1,19 @@
 <template>
   <div id="app">
     <navigation/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Navigation from './components/includes/Navigation.vue'
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'; //import router.js into main.js
+  import Navigation from './components/includes/Navigation.vue'
 
-new Vue({
-  render: h => h(App),
-  //store, //(where does this come in?)
-  router //added router instance
-}).$mount('#app')
-
-export default {
-  name: 'App',
-  components: {
-    Navigation
+  export default {
+    name: 'App',
+    components: {
+      Navigation
+    }
   }
-}
 </script>
 
 <style>
