@@ -2,9 +2,9 @@
     <div>
         <section class="section">
             <div class="container-fliud">
-                <img alt="Vue logo" class="rounded-circle" src="../assets/pp.png">
-                <h1>Alden Burgess</h1>
-                <p>Software Engineer, Web Developer, Game Programmer
+                <img alt="Vue logo" class="rounded-circle" src="../assets/pp.png" width=30% height=30%>
+                <h1 style="color:white;">Alden Burgess</h1>
+                <p style="color:white;">Software Engineer, Web Developer, Game Programmer
                 </p>
                 <button type="button" class="btn btn-primary btn-lg">
                   Contact
@@ -19,18 +19,16 @@
                     <div class="col-md-4">
                             <div class="card">
                                 <div class="card-head">
-                                    <img alt="Vue logo"
-                                      class="rounded-circle img-custome" 
-            src="../assets/unity.png">
+                                    <img alt="Vue logo" class="rounded-circle img-custome" src="../assets/unity.png">
                                     <h2>Games</h2>
                                 </div>
                                 <hr>
                                 <div class="card-body">
                                     <p>
-                                        I'm a hobbyist Unity game developer, creating games for fun and competition.
+                                        I'm a hobbyist Unity game developer, creating prototype games for fun and competition.
                                     </p>
                           <button type="button" class="btn btn-outline-secondary">
-                            More
+                            Look
                             </button>
                                 </div>
                             </div>
@@ -45,11 +43,9 @@
                                 <hr>
                                 <div class="card-body">
                                     <p>
-                                        Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
-                                        Nullam id dolor id nibh ultricies vehicula ut id elit. 
-                                        Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+                                        View web projects I've contributed to, from class assignments to hackathon submissions.
                                     </p>
-                                    <button type="button" class="btn btn-outline-secondary">More</button>
+                                    <button type="button" class="btn btn-outline-secondary">See</button>
                                 </div>
                             </div>
                         <br>
@@ -57,17 +53,15 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-head">
-                                <img alt="Vue logo" class="rounded-circle img-custome" src="../assets/test.png">
-                                <h2>web project</h2>
+                                <img alt="Vue logo" class="rounded-circle img-custome" src="../assets/questionmark.png">
+                                <h2>Other Projects</h2>
                             </div>
                             <hr>
                             <div class="card-body">
                                 <p>
-                                    Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. 
-                                    Nullam id dolor id nibh ultricies vehicula ut id elit. 
-                                    Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+                                    IPhone apps! Video game mods! Even I don't know what all I'm putting in this category.
                                 </p>
-                                <button type="button" class="btn btn-outline-secondary">More</button>
+                                <button type="button" class="btn btn-outline-secondary">Observe</button>
                             </div>
                         </div>
                     </div>
@@ -82,6 +76,8 @@
     .section{
         padding-top: 5%;
         padding-bottom: 10%;
+        background-image: url('../assets/ocean.png');
+        background-color: #6fe0e8;
     }
     .portfolio{
         background-color: #34345238;

@@ -1,5 +1,5 @@
 <template>
-    <div class="scoped">
+    <div class="scoped fix-top">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" 
               data-target="#navbarTogglerDemo03" 
@@ -30,5 +30,6 @@
 <style scoped>
     .fix-top{
         margin-top: -63px; 
+        background-color: #173469;
     }
 </style>
