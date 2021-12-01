@@ -6,7 +6,9 @@
                 <h1 style="color:white;">Alden Burgess</h1>
                 <p style="color:white;">Software Engineer, Web Developer, Game Programmer
                 </p>
-                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">Contact</button>
+                <button type="button" class="btn btn-primary btn-lg">
+                  Contact
+                </button>
             </div>
         </section>
         <section class="portfolio">
@@ -66,30 +68,9 @@
                 </div>
             </div>
         </section>
-        <!-- modal for contact -->
-        <section class="">
-            <div class="modal fade bd-example-modal-lg" tabindex="-1" 
-                role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <contact/> <!-- where we utilized the newly imported component -->
-                    </div>
-                </div>
-            </div>
-        </section>
     </div>
-
+    
 </template>
-
-<script lang="ts">
-    import Contact from './Contact.vue'
-    export default {
-        name:'Lander',
-        components:{
-            Contact
-        }  
-    }
-</script>
 
 <style lang="css" scoped>
     .section{
