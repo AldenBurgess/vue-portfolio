@@ -25,8 +25,8 @@
                 <div class="col-6 col-md">
                 <h5>Contact</h5>
                 <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Twitter: @Injuredninjas</a></li>
                     <li><a class="text-muted" href="#">Email: arburgess98@gmail.com</a></li>
+                    <li><a class="text-muted" href="#">Twitter: @Injuredninjas</a></li>
                     <li><a class="text-muted" href="#">Join my ROTMG guild lol</a></li>
                 </ul>
                 </div>
