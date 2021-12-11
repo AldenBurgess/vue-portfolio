@@ -11,13 +11,13 @@
         </section>
         <section class="portfolio">
             <h1>My Work</h1>
-            <p>These are suppose to be sample projects</p>
+            <p>Projects I've created or contributed to</p>
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
                             <div class="card">
                                 <div class="card-head">
-                                    <img alt="Vue logo" class="rounded-circle img-custome" src="../assets/unity.png">
+                                    <img alt="Vue logo" class="rounded-circle img-custom" src="../assets/unity.png">
                                     <h2>Games</h2>
                                 </div>
                                 <hr>
@@ -25,9 +25,7 @@
                                     <p>
                                         I'm a hobbyist Unity game developer, creating prototype games for fun and competition.
                                     </p>
-                          <button type="button" class="btn btn-outline-secondary">
-                            Look
-                            </button>
+                                    <router-link to="/games" class="btn btn-outline-secondary">Look</router-link>
                                 </div>
                             </div>
                             <br>
@@ -35,7 +33,7 @@
                     <div class="col-md-4">
                             <div class="card">
                                 <div class="card-head">
-                                    <img alt="Vue logo" class="rounded-circle img-custome" src="../assets/web.png">
+                                    <img alt="Vue logo" class="rounded-circle img-custom" src="../assets/web.png">
                                     <h2>Web Apps</h2>
                                 </div>
                                 <hr>
@@ -51,7 +49,7 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-head">
-                                <img alt="Vue logo" class="rounded-circle img-custome" src="../assets/questionmark.png">
+                                <img alt="Vue logo" class="rounded-circle img-custom" src="../assets/questionmark.png">
                                 <h2>Other Projects</h2>
                             </div>
                             <hr>
@@ -92,6 +90,9 @@
 </script>
 
 <style lang="css" scoped>
+    .portfolio{
+        background-image: url('../assets/portfoliobackground.png');
+    }
     .section{
         padding-top: 5%;
         padding-bottom: 10%;
@@ -104,7 +105,7 @@
         padding-bottom: 15%;
         /* padding:15% */
     }
-    .img-custome{
+    .img-custom{
         width: 140px;
         height: 140px;
         margin-top: 15px;
