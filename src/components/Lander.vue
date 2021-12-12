@@ -25,7 +25,7 @@
                                     <p>
                                         I'm a hobbyist Unity game developer, creating prototype games for fun and competition.
                                     </p>
-                                    <router-link to="/games" class="btn btn-outline-secondary" v-on:click="topFunction" id="clickButton">Look</router-link>
+                                    <router-link to="/games" class="btn btn-outline-secondary">Look</router-link>
                                 </div>
                             </div>
                             <br>
@@ -85,15 +85,6 @@
         name:'Lander',
         components:{
             Contact
-        },  
-        
-        methods: {
-            topFunction: function () {
-                if(this){
-                    window.scrollTo(0, 0);
-                    window.alert("Scrolling to top?")    
-                }
-            }
         }
     }
 </script>
