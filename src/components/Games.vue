@@ -1,5 +1,11 @@
 <template>
     <div>
+        <section class="banner">
+            <div class="container-fliud">
+                <img alt="Vue logo" src="../assets/gamesbanner.png" width=100% height=48%>
+                
+            </div>
+        </section>
         <section class="portfolio">
             <h1>Games I've Created</h1>
             <div class="container">
