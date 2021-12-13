@@ -7,7 +7,7 @@
             </div>
         </section>
         <section class="portfolio">
-            <h1>Games I've Created</h1>
+            <h1 style="color:white">Games I've Created</h1>
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -21,9 +21,9 @@
                                     <p>
                                         Strategy
                                     </p>
-                                    <button type="button" class="btn btn-outline-secondary">
-                                        Look
-                                    </button>
+                                    <a class="btn btn-outline-secondary" href="https://alden-burgess.itch.io/braham">
+                                        Itch.io
+                                    </a>
                                 </div>
                             </div>
                         <br>
@@ -97,7 +97,7 @@
         background-color: #6fe0e8;
     }
     .portfolio{
-        background-color: #34345238;
+        background-color: #181818;
         padding-top: 8%;
         padding-bottom: 15%;
         /* padding:15% */
