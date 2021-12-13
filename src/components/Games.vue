@@ -11,15 +11,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                            <div class="card">
+                            <div class="card gameframe" >
                                 <div class="card-head">
-                                    <img alt="Vue logo" class="rounded-circle img-custom" src="../assets/unity.png">
+                                    <img alt="Vue logo" class="rounded-circle img-custom" src="../assets/braham.png">
                                     <h2>Braham</h2>
                                 </div>
                                 <hr>
                                 <div class="card-body">
                                     <p>
-                                        Strategy
+                                        Keep your island afloat amongst merciless wind currents!
                                     </p>
                                     <a class="btn btn-outline-secondary" href="https://alden-burgess.itch.io/braham">
                                         Itch.io
@@ -29,53 +29,61 @@
                         <br>
                     </div>
                     <div class="col-md-6">
-                            <div class="card">
+                            <div class="card gameframe" >
                                 <div class="card-head">
-                                    <img alt="Vue logo" class="rounded-circle img-custom" src="../assets/web.png">
+                                    <img alt="Vue logo" class="rounded-circle img-custom" src="../assets/wheelchair.png">
                                     <h2>Wheely Stealy</h2>
                                 </div>
                                 <hr>
                                 <div class="card-body">
                                     <p>
-                                        VR Wheelchair Sim
+                                        Roll your wheelchair around in a VR shopping spree!
                                     </p>
-                                    <button type="button" class="btn btn-outline-secondary">See</button>
+                                    <a class="btn btn-outline-secondary" href="https://alden-burgess.itch.io/wheely-stealy">
+                                        Itch.io
+                                    </a>
                                 </div>
                             </div>
                         <br>
-                    </div>  
+                    </div> 
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="card">
-                            <div class="card-head">
-                                <img alt="Vue logo" class="rounded-circle img-custom" src="../assets/questionmark.png">
-                                <h2>Hook, Line and Dexter</h2>
+                            <div class="card gameframe" >
+                                <div class="card-head">
+                                    <img alt="Vue logo" class="rounded-circle img-custom" src="../assets/hooklinedexter.png">
+                                    <h2>Hook, Line, and Dexter</h2>
+                                </div>
+                                <hr>
+                                <div class="card-body">
+                                    <p>
+                                        A puzzle platformer featuring Dexter and his trusty bird.
+                                    </p>
+                                    <a class="btn btn-outline-secondary" href="https://alden-burgess.itch.io/hook-line-and-dexter">
+                                        Itch.io
+                                    </a>
+                                </div>
                             </div>
-                            <hr>
-                            <div class="card-body">
-                                <p>
-                                    Platformer
-                                </p>
-                                <button type="button" class="btn btn-outline-secondary">Observe</button>
-                            </div>
-                        </div>
-                    </div>
+                        <br>
+                    </div> 
                     <div class="col-md-6">
-                        <div class="card">
-                            <div class="card-head">
-                                <img alt="Vue logo" class="rounded-circle img-custom" src="../assets/questionmark.png">
-                                <h2>Rock Game</h2>
+                            <div class="card gameframe" >
+                                <div class="card-head">
+                                    <img alt="Vue logo" class="rounded-circle img-custom" src="../assets/rock.png">
+                                    <h2>Rock Game</h2>
+                                </div>
+                                <hr>
+                                <div class="card-body">
+                                    <p>
+                                        Chuck rocks into the ocean!
+                                    </p>
+                                    <a class="btn btn-outline-secondary" href="https://alden-burgess.itch.io/rock-game">
+                                        Itch.io
+                                    </a>
+                                </div>
                             </div>
-                            <hr>
-                            <div class="card-body">
-                                <p>
-                                    Arcade 
-                                </p>
-                                <button type="button" class="btn btn-outline-secondary">Observe</button>
-                            </div>
-                        </div>
-                    </div>
+                        <br>
+                    </div> 
                 </div>
             </div>
         </section>
@@ -90,6 +98,10 @@
 </script>
 
 <style lang="css" scoped>
+    .gameframe{
+        background-image: url('../assets/gameframe.png');
+        background-size: contains;
+    }
     .section{
         padding-top: 5%;
         padding-bottom: 10%;
@@ -105,6 +117,5 @@
     .img-custom{
         width: 140px;
         height: 140px;
-        margin-top: 15px;
     }
 </style>
