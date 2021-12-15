@@ -4,7 +4,8 @@ Vue.use(VueRouter);
 let router = new VueRouter({
     routes:[
         {path:'/',  name:'Landing', component: () =>import('./components/Lander.vue')},
-        {path:'/games',  name:'Games',   component: () =>import('./components/Games.vue')}
+        {path:'/games',  name:'Games',   component: () =>import('./components/Games.vue')},
+        {path:'/webapps', name: 'Webapps', component: () =>import('./components/Webapps.vue')}
     ],
     scrollBehavior () {
         return { x: 0, y: 0 }

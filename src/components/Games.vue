@@ -10,8 +10,8 @@
             <h1 style="color:white">Games I've Created</h1>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                            <div class="card gameframe" >
+                    <div class="col-md-6 gameframe">
+                            <div class="transparent" >
                                 <div class="card-head">
                                     <img alt="Vue logo" class="rounded-circle img-custom" src="../assets/braham.png">
                                     <h2>Braham</h2>
@@ -28,8 +28,8 @@
                             </div>
                         <br>
                     </div>
-                    <div class="col-md-6">
-                            <div class="card gameframe" >
+                    <div class="col-md-6 gameframe">
+                            <div class="transparent">
                                 <div class="card-head">
                                     <img alt="Vue logo" class="rounded-circle img-custom" src="../assets/wheelchair.png">
                                     <h2>Wheely Stealy</h2>
@@ -48,8 +48,8 @@
                     </div> 
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
-                            <div class="card gameframe" >
+                    <div class="col-md-6 gameframe">
+                            <div class="transparent" >
                                 <div class="card-head">
                                     <img alt="Vue logo" class="rounded-circle img-custom" src="../assets/hooklinedexter.png">
                                     <h2>Hook, Line, and Dexter</h2>
@@ -66,8 +66,8 @@
                             </div>
                         <br>
                     </div> 
-                    <div class="col-md-6">
-                            <div class="card gameframe" >
+                    <div class="col-md-6 gameframe">
+                            <div class="transparent" >
                                 <div class="card-head">
                                     <img alt="Vue logo" class="rounded-circle img-custom" src="../assets/rock.png">
                                     <h2>Rock Game</h2>
@@ -98,9 +98,12 @@
 </script>
 
 <style lang="css" scoped>
+    .transparent{
+        background-color: transparent;
+    }
     .gameframe{
         background-image: url('../assets/gameframe.png');
-        background-size: contains;
+        background-size: cover;
     }
     .section{
         padding-top: 5%;
